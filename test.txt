@@ -8,8 +8,86 @@
 </head>
 <body>
 
-  <h1>私の自己紹介</h1>
-  <p>こんにちは、私はWeb開発を勉強しています。</p>
+  <header>
+    <h1>私の自己紹介</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">自己紹介</a></li>
+        <li><a href="#skills">学習言語</a></li>
+        <li><a href="#links">リンク集</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  </body>
+  <main>
+    
+    <section id="about">
+      <h2>自己紹介</h2>
+      <p>こんにちは、私はWeb開発を勉強しています。</p>
+      
+      <article>
+        <h3>お気に入りの動物たち</h3>
+        <p>日々の癒しとなっている動物の画像です。</p>
+        <img src="images/ドルフィン.png" alt="イルカの画像" loading="lazy">
+        <img src="images/パンダ.png" alt="パンダの画像" loading="lazy">
+        <img src="images/虎.png" alt="トラの画像" loading="lazy">
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>学習言語一覧</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th scope="col">言語名</th>
+            <th scope="col">登場年</th>
+            <th scope="col">特徴</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Python</th>
+            <td>1991年</td>
+            <td>高度な汎用プログラミング言語</td>
+          </tr>
+          <tr>
+            <th scope="row">JavaScript</th>
+            <td>1995年</td>
+            <td>Web開発で広く使用される</td>
+          </tr>
+          <tr>
+            <th scope="row">Go</th>
+            <td>2009年</td>
+            <td>Googleによって開発された言語</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="links">
+      <h2>リンク & 目次</h2>
+      <div class="toc">
+        <div>目次（ページ内リンク）</div>
+        <ol>
+          <li><a href="#about">1. 自己紹介セクションへ</a></li>
+          <li><a href="#skills">2. 学習言語セクションへ</a></li>
+        </ol>
+      </div>
+      
+      <p>学習用の外部プラットフォーム：</p>
+      <a href="https://envader.plus/" target="_blank" rel="noopener">エンベーダーへ移動</a>
+    </section>
+
+  </main>
+
+  <aside>
+    <h2>プロフィール補足</h2>
+    <p>強靭な心身を保ちながら、市場価値の高いエンジニアになるべくRareTECHで猛学習中。現状維持を嫌い、常に上を目指して主体的に行動します。</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2026 私のWebページ. All Rights Reserved.</p>
+  </footer>
+
+</body>
 </html>
