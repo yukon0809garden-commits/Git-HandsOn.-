@@ -2,75 +2,14 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Git Study</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="このページは私の自己紹介です">
+  <title>私のWebページ</title>
 </head>
 <body>
-  <h1>1番目に大きい文字</h1>
-  <h2>2番目に大きい文字</h2>
-  <h3>3番目に大きい文字</h3>
-  <h4>4番目に大きい文字</h4>
-  <h5>5番目に大きい文字</h5>
-</body>
+
+  <h1>私の自己紹介</h1>
+  <p>こんにちは、私はWeb開発を勉強しています。</p>
+
+  </body>
 </html>
-<p>私たちは昨日、東京の新宿に行きました。とても賑やかで楽しかったです。</p>
-  <p>今日は渋谷を訪れます。たくさんのショッピングが楽しみです。</p>
-
-  <p>会社名: 株式会社サンプル<br>
-  住所: 〒123-4567<br>
-  東京都千代田区丸の内1-1-1<br>
-  電話番号: 03-1234-5678</p>
-  <table border="1">
-    <thead>
-      <tr>
-        <th scope="col">言語名</th>
-        <th scope="col">登場年</th>
-        <th scope="col">特徴</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">Python</th>
-        <td>1991年</td>
-        <td>高度な汎用プログラミング言語</td>
-      </tr>
-      <tr>
-        <th scope="row">JavaScript</th>
-        <td>1995年</td>
-        <td>Web開発で広く使用される</td>
-      </tr>
-      <tr>
-        <th scope="row">Go</th>
-        <td>2009年</td>
-        <td>Googleによって開発された言語</td>
-      </tr>
-    </tbody>
-  </table>
-  <a href="https://example.com" target="_blank" rel="noopener">>Exampleサイトへ移動</a>
-  <div class="toc">
-    <div>目次</div>
-    <ol>
-      <li>見出し1</li>
-      <li>
-        見出し2
-        <ol>
-          <li>見出し2-1</li>
-          <li>見出し2-2</li>
-        </ol>
-      </li>
-    </ol>
-  </div>
-  <h1>目次</h1>
-  <ul>
-    <li><a href="#section1">セクション1に移動</a></li>
-    <li><a href="#section2">セクション2に移動</a></li>
-    <li><a href="#section3">セクション3に移動</a></li>
-  </ul>
-
-  <h2 id="section1">セクション1</h2>
-  <p>ここはセクション1の内容です。</p>
-
-  <h2 id="section2">セクション2</h2>
-  <p>ここはセクション2の内容です。</p>
-
-  <h2 id="section3">セクション3</h2>
-  <p>ここはセクション3の内容です。</p>
