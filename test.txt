@@ -46,3 +46,16 @@
     </tbody>
   </table>
   <a href="https://example.com" target="_blank" rel="noopener">>Exampleサイトへ移動</a>
+  <div class="toc">
+    <div>目次</div>
+    <ol>
+      <li>見出し1</li>
+      <li>
+        見出し2
+        <ol>
+          <li>見出し2-1</li>
+          <li>見出し2-2</li>
+        </ol>
+      </li>
+    </ol>
+  </div>
