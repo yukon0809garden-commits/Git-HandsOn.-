@@ -45,3 +45,4 @@
       </tr>
     </tbody>
   </table>
+  <a href="https://example.com" target="_blank" rel="noopener">>Exampleサイトへ移動</a>
